@@ -11,3 +11,8 @@ Example:subtract(10, 4). It returns 6
 adds 2 numbers and return their sum
 Potential problems: if a string and a int are added up together
 Example: add(2,3). It returns 5
+
+# distance_from_zero(x)
+Calculates the absolute distance of a number from zero by calling subtract.
+Potential problems: Passing non-numeric types will raise a TypeError.
+Example: distance_from_zero(-8). It returns 8
