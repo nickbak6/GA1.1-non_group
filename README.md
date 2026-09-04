@@ -16,3 +16,7 @@ Example: add(2,3). It returns 5
 Calculates the absolute distance of a number from zero by calling subtract.
 Potential problems: Passing non-numeric types will raise a TypeError.
 Example: distance_from_zero(-8). It returns 8
+# sum_list(values)
+Calculates the sum of all elements in a list by repeatedly calling the base add function.
+Potential problems: Elements inside the list that are not numbers will raise a TypeError.
+Example: sum_list([1, 2, 3, 4, 5]). It returns 15
